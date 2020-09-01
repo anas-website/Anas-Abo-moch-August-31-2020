@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Anas-Abo-moch-August-31-2020/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Anas-Abo-moch-August-31-2020/static/js/main.50d79989.chunk.js",
+    "main.js.map": "/Anas-Abo-moch-August-31-2020/static/js/main.50d79989.chunk.js.map",
+    "runtime-main.js": "/Anas-Abo-moch-August-31-2020/static/js/runtime-main.dd04e9c5.js",
+    "runtime-main.js.map": "/Anas-Abo-moch-August-31-2020/static/js/runtime-main.dd04e9c5.js.map",
+    "static/css/2.98f886d0.chunk.css": "/Anas-Abo-moch-August-31-2020/static/css/2.98f886d0.chunk.css",
+    "static/js/2.3bc9ff35.chunk.js": "/Anas-Abo-moch-August-31-2020/static/js/2.3bc9ff35.chunk.js",
+    "static/js/2.3bc9ff35.chunk.js.map": "/Anas-Abo-moch-August-31-2020/static/js/2.3bc9ff35.chunk.js.map",
+    "index.html": "/Anas-Abo-moch-August-31-2020/index.html",
+    "precache-manifest.7b87862333ec947e60ca652ef7977ea9.js": "/Anas-Abo-moch-August-31-2020/precache-manifest.7b87862333ec947e60ca652ef7977ea9.js",
+    "service-worker.js": "/Anas-Abo-moch-August-31-2020/service-worker.js",
+    "static/css/2.98f886d0.chunk.css.map": "/Anas-Abo-moch-August-31-2020/static/css/2.98f886d0.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/Anas-Abo-moch-August-31-2020/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3bc9ff35.chunk.js.LICENSE.txt": "/Anas-Abo-moch-August-31-2020/static/js/2.3bc9ff35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd04e9c5.js",
+    "static/css/2.98f886d0.chunk.css",
+    "static/js/2.3bc9ff35.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.50d79989.chunk.js"
+  ]
+}
