@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from './components/Home';
