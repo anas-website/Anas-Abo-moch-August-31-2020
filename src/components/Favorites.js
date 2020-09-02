@@ -11,7 +11,7 @@ export default function Favorites() {
         const getdata=()=>{
            let arr=[]
             val.favorits.map((item,i)=>{ 
-        axios.get('http://dataservice.accuweather.com/currentconditions/v1/'+item.id+'?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd')
+        axios.get('https://dataservice.accuweather.com/currentconditions/v1/'+item.id+'?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd')
         .then((res)=>{
             arr.push(res.data[0].Temperature.Metric.Value)
            

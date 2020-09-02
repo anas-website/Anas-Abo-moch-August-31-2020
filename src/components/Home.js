@@ -22,15 +22,15 @@ const [Country, setCountry] = useState('')
  
   useEffect(() => {
 
-      axios.get(`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd&q=${CountryName}`)
+      axios.get(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd&q=${CountryName}`)
   .then((res) => {
 
     key=res.data[0].Key
 //  console.log(res.data[0]);
  setCountry(res.data[0].Country.LocalizedName)
 
-const requestOne =  axios.get('http://dataservice.accuweather.com/currentconditions/v1/'+key+'?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd');
-const requestTwo =  axios.get('http://dataservice.accuweather.com/forecasts/v1/daily/5day/'+key+'?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd');
+const requestOne =  axios.get('https://dataservice.accuweather.com/currentconditions/v1/'+key+'?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd');
+const requestTwo =  axios.get('https://dataservice.accuweather.com/forecasts/v1/daily/5day/'+key+'?apikey=8NbF18PGTxwaMWhAH4OOKiU9etqQs2Yd');
 
  return axios.all([requestOne, requestTwo]);
 
