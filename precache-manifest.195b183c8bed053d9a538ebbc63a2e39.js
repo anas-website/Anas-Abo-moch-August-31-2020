@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ef7eebd36cc157ff1ca8f3c036d1b4d",
+    "revision": "c39df7f0781967dee850220ebf3a453a",
     "url": "/Anas-Abo-moch-August-31-2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Anas-Abo-moch-August-31-2020/static/css/2.98f886d0.chunk.css"
   },
   {
-    "revision": "4cb769048b6c2a17befe",
+    "revision": "3e137e6245d739aa6259",
     "url": "/Anas-Abo-moch-August-31-2020/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Anas-Abo-moch-August-31-2020/static/js/2.923d5037.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4cb769048b6c2a17befe",
-    "url": "/Anas-Abo-moch-August-31-2020/static/js/main.38c2bfcf.chunk.js"
+    "revision": "3e137e6245d739aa6259",
+    "url": "/Anas-Abo-moch-August-31-2020/static/js/main.42593be6.chunk.js"
   },
   {
     "revision": "bc3e331cbf9b9bdc1ff2",
