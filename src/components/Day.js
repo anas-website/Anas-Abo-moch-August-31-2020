@@ -5,7 +5,7 @@ export default function Day({dateforecast}) {
     const convertDate=(date)=>{
         var d2 = new Date(date);
         var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-        console.log(days[d2.getDay()]); 
+       
         return days[d2.getDay()]
         } 
         const convertFToC=(num)=>{

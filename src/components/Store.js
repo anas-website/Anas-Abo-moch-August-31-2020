@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react'
 export const ContextStore = createContext()
 export  function Store(props) {
 
-const [favorits, setfavorits] = useState([{countryName:'haifa'},{countryName:'Tel Aviv'}])
+const [favorits, setfavorits] = useState([{countryName:'Tel Aviv',id:'215854'}])
 const [chosenCountry, setchosenCountry] = useState('Tel Aviv')
 
     return (
