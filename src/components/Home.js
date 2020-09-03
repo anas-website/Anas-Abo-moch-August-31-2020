@@ -16,6 +16,7 @@ const [Country, setCountry] = useState('')
   const [flag, setflag] = useState(false)
   const [temperature, settemperature] = useState('')
   const [dateforecast, setdateforecast] = useState('')
+  const [errorMessage, seterrorMessage] = useState('')
 
   const [btnName, setbtnName] = useState('Delete from favorites')
   const [WeatherText, setWeatherText] = useState('')
@@ -83,13 +84,16 @@ const isCountryExist=(name)=>{
 const ValidateCountry=(val)=>{
  isCountryExist(val)
     isEN=false
+    seterrorMessage('Input must be with English!')
           let re = /^[A-Za-z ]+$/
             if((re.test(val))){
                 isEN=true
-           
+                seterrorMessage('')
                 CountryName=val
             }else
-            {isEN=false} 
+            {isEN=false
+              // seterrorMessage('Input must be with English!')
+             } 
 }
 
 
@@ -98,8 +102,10 @@ const ValidateCountry=(val)=>{
         <div className='container'>
             <br/>
                <input onChange={(e)=>{ValidateCountry(e.target.value)}} className='form-control' type='text' name='inp' placeholder='country Name'defaultValue={val.chosenCountry} ></input>
-               <br/>
-               <div className='row' style={{border:'1px solid black',borderRadius:'3px'}}>
+              
+    <h5 style={{color:'red' ,marginTop:'5px'}}>{errorMessage}</h5>  
+    <br/>
+               <div  className='row' style={{border:'1px solid black',borderRadius:'3px',margin:'5px'}}>
         <div className='col-6' >
               <div style={{textAlign:'center'}}>
     <h3>{CountryName}</h3>
@@ -110,11 +116,11 @@ const ValidateCountry=(val)=>{
               </div>
         </div> 
         <div className='col-6' style={{}}>  
-               <button className='btn btn-primary'style={{float:'right',margin:'10px' }}  onClick={() => { 
+               <button  className='btn btn-secondary' style={{float:'right',margin:'10px' }}  onClick={() => { 
                  setcountryName(CountryName)
                  isEN ? setflag(!flag):alert('Name of country is invalid !')
                   }}>Get Wether</button>
-               <button  className='btn btn-primary'style={{float:'right',margin:'10px' }}  
+               <button  className='btn btn-secondary'style={{float:'right',margin:'10px' }}  
                onClick={() => {
                  setcountryName(CountryName)
                  if(iserror&&isEN&&validReq&&btnName=='Add To favorites'){

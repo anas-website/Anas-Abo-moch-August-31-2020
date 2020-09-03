@@ -35,8 +35,8 @@ setTimeout(() => {
         <div className='container'>
                <div className='row' style={{padding:'10px',border:'1px solid black',borderRadius:'3px'}}> 
            {val.favorits.map((item,i)=>{
-                  return <Link style={{backgroundColor:'gray',border:'1px solid black',borderRadius:'3px',maxWidth:'150px',minWidth:'150px',margin:'auto',marginTop:'10px',height:'130px',textAlign:'center'}} className='col-6' key={i} to='/'onClick={()=>{{val.setchosenCountry(item.countryName)}}} ><div   >     <div  ><h4 style={{color:'black',paddingTop:'25px'}} >{item.countryName}</h4>
-                  <h4 style={{color:'black'}} >{temp[i]}°C</h4>
+                  return <Link style={{backgroundColor:'#6c757d', border:'1px solid black',borderRadius:'3px',maxWidth:'150px',minWidth:'150px',margin:'auto',marginTop:'10px',height:'130px',textAlign:'center'}} className='col-6' key={i} to='/'onClick={()=>{{val.setchosenCountry(item.countryName)}}} ><div   >     <div  ><h4 style={{color:'white',paddingTop:'25px'}} >{item.countryName}</h4>
+                  <h4 style={{color:'white'}} >{temp[i]}°C</h4>
                   </div></div></Link>
                 })}
 

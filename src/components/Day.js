@@ -16,9 +16,9 @@ export default function Day({dateforecast}) {
     const  returnday=()=>{
         try {
            return( dateforecast.map((item,i)=>{
-                  return (<td key={i} > <h5>{convertDate(item.Date)}</h5>
-                 <h5> { convertFToC(item.Temperature.Maximum.Value)}°C</h5> 
-                 <p> { convertFToC(item.Temperature.Minimum.Value)}°C</p> 
+                  return (<td key={i} style={{textAlign:'center' }} > <h6>{convertDate(item.Date)}</h6>
+                 <p style={{fontSize:'15px',fontWeight: 'bold'}}> { convertFToC(item.Temperature.Maximum.Value)}°C</p> 
+                 <p style={{fontSize:'13px'}}>  { convertFToC(item.Temperature.Minimum.Value)}°C</p> 
                  </td>)
                 }))  
         } catch (error) {
@@ -28,9 +28,10 @@ export default function Day({dateforecast}) {
     return (
 
         <div>                
-<table className='table table-bordered'>
+<table className='table table-bordered table-secondary'>
 <tbody>
-  <tr style={{backgroundColor:'gray',textAlign:'center'}}>
+  <tr >
+      {/* <td>dfdsf</td> */}
   {returnday()}
   </tr>
 
