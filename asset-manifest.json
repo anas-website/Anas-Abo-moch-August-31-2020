@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Anas-Abo-moch-August-31-2020/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Anas-Abo-moch-August-31-2020/static/js/main.42593be6.chunk.js",
-    "main.js.map": "/Anas-Abo-moch-August-31-2020/static/js/main.42593be6.chunk.js.map",
+    "main.css": "/Anas-Abo-moch-August-31-2020/static/css/main.3fcd11d6.chunk.css",
+    "main.js": "/Anas-Abo-moch-August-31-2020/static/js/main.4bb7cd52.chunk.js",
+    "main.js.map": "/Anas-Abo-moch-August-31-2020/static/js/main.4bb7cd52.chunk.js.map",
     "runtime-main.js": "/Anas-Abo-moch-August-31-2020/static/js/runtime-main.dd04e9c5.js",
     "runtime-main.js.map": "/Anas-Abo-moch-August-31-2020/static/js/runtime-main.dd04e9c5.js.map",
     "static/css/2.98f886d0.chunk.css": "/Anas-Abo-moch-August-31-2020/static/css/2.98f886d0.chunk.css",
-    "static/js/2.923d5037.chunk.js": "/Anas-Abo-moch-August-31-2020/static/js/2.923d5037.chunk.js",
-    "static/js/2.923d5037.chunk.js.map": "/Anas-Abo-moch-August-31-2020/static/js/2.923d5037.chunk.js.map",
+    "static/js/2.be3c47c5.chunk.js": "/Anas-Abo-moch-August-31-2020/static/js/2.be3c47c5.chunk.js",
+    "static/js/2.be3c47c5.chunk.js.map": "/Anas-Abo-moch-August-31-2020/static/js/2.be3c47c5.chunk.js.map",
     "index.html": "/Anas-Abo-moch-August-31-2020/index.html",
-    "precache-manifest.195b183c8bed053d9a538ebbc63a2e39.js": "/Anas-Abo-moch-August-31-2020/precache-manifest.195b183c8bed053d9a538ebbc63a2e39.js",
+    "precache-manifest.68e85781d85c7cdf755031283cd0b588.js": "/Anas-Abo-moch-August-31-2020/precache-manifest.68e85781d85c7cdf755031283cd0b588.js",
     "service-worker.js": "/Anas-Abo-moch-August-31-2020/service-worker.js",
     "static/css/2.98f886d0.chunk.css.map": "/Anas-Abo-moch-August-31-2020/static/css/2.98f886d0.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/Anas-Abo-moch-August-31-2020/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.923d5037.chunk.js.LICENSE.txt": "/Anas-Abo-moch-August-31-2020/static/js/2.923d5037.chunk.js.LICENSE.txt"
+    "static/css/main.3fcd11d6.chunk.css.map": "/Anas-Abo-moch-August-31-2020/static/css/main.3fcd11d6.chunk.css.map",
+    "static/js/2.be3c47c5.chunk.js.LICENSE.txt": "/Anas-Abo-moch-August-31-2020/static/js/2.be3c47c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd04e9c5.js",
     "static/css/2.98f886d0.chunk.css",
-    "static/js/2.923d5037.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.42593be6.chunk.js"
+    "static/js/2.be3c47c5.chunk.js",
+    "static/css/main.3fcd11d6.chunk.css",
+    "static/js/main.4bb7cd52.chunk.js"
   ]
 }

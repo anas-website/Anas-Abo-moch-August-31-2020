@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Anas-Abo-moch-August-31-2020/precache-manifest.195b183c8bed053d9a538ebbc63a2e39.js"
+  "/Anas-Abo-moch-August-31-2020/precache-manifest.68e85781d85c7cdf755031283cd0b588.js"
 );
 
 self.addEventListener('message', (event) => {
